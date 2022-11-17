@@ -1,0 +1,79 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+#wrapper {
+    width: 2200px;
+    height: 820px;
+    border: solid black;
+    background-image: url(images.jpg);
+
+}
+#tank {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 10px;
+    left: 400px;
+    animation: tank 8s infinite linear;
+}
+
+@keyframes tank{
+    0%{left: 2490px;}
+    100%{left: -700px;}
+}
+.tank {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 150px;
+    left: 400px;
+    animation: tank 6s infinite linear;
+}
+.tank img{
+    width: 500px;
+    height: 150px;
+}
+@keyframes tank{
+    0%{left: 2490px;}
+    100%{left: -700px;}
+}
+.tank1 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 310px;
+    left: 400px;
+    animation: tank 9s infinite linear;
+}
+.tank2 {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 390px;
+    left: 400px;
+    animation: tank 5s infinite linear;
+}
+.tank2 img {
+    width: 430px;
+    height: 250px;
+}
+@keyframes suspension{
+    100%{
+        transform: translateY(-1px);
+    }
+    50%{
+        transform: translateY(2px);
+    }
+    0%{
+        transform: translateY(-1px);
+    }
+}
+.hunve {
+    width: 20px;
+    height: 20px;
+    position: relative;
+    top: 550px;
+    left: 400px;
+    animation: tank 3s infinite linear;
+}
